@@ -13,8 +13,10 @@ int main(void) {
     printf("Enter second integer: "); // prompt
     scanf("%d", &integer2);           // read an integer
 
-    int sum = 0;               // variable to store total value
-    sum = integer1 + integer2; // assign total to sum
+    // int sum = 0;               // variable to store total value
+    // sum = integer1 + integer2; // assign total to sum
 
-    printf("Sum is %d\n", sum); //prints sum
+    // int sum = integer1+integer2; // fast-version
+
+    printf("Sum is %d\n", integer1+integer2); //prints sum
 } //end function main
